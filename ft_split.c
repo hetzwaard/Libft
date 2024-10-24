@@ -30,25 +30,25 @@ int	ft_safe_malloc(char **token_v, int position, size_t buffer)
 	return (0);
 }
 
-size_t	ft_strlcpy(char *dst, const char *src, unsigned int size)
+//size_t	ft_strlcpy(char *dst, const char *src, unsigned int size)
 
-{
-	unsigned int	i;
-	unsigned int	x;
+//{
+//	unsigned int	i;
+//	unsigned int	x;
 
-	x = strlen(src);
-	i = 0;
-	if (size != 0)
-	{
-		while (src [i] != '\0' && i < size - 1)
-		{
-			dst[i] = src[i];
-			i++;
-		}
-		dst[i] = '\0';
-	}
-	return (x);
-}
+//	x = strlen(src);
+//	i = 0;
+//	if (size != 0)
+//	{
+//		while (src [i] != '\0' && i < size - 1)
+//		{
+//			dst[i] = src[i];
+//			i++;
+//		}
+//		dst[i] = '\0';
+//	}
+//	return (x);
+//}
 
 int	ft_fill(char **token_v, char const *s, char delimeter)
 {
